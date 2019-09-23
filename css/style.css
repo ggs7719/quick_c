@@ -341,6 +341,14 @@ input.form-control.mr-sm-2.ser-ch {
     background-size: cover;
 }
 
+.carousel-item.item5 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
+    background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
+    background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
+    background-size: cover;
+}
+
 .carousel-caption h2,
 .carousel-caption h3 {
     font-size: 4em;
@@ -558,13 +566,13 @@ h4.sub-tittle {
 }
 
 .style-image-2 {
-    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/1.jpg) no-repeat;
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/l1.jpg) no-repeat;
     background-size: cover;
     min-height: 600px;
 }
 
 .style-image-2.second {
-    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/2.jpg) no-repeat;
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/l2.jpg) no-repeat;
     background-size: cover;
     min-height: 600px;
 }
@@ -1042,6 +1050,7 @@ footer h2 {
     color: #ffffff;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    margin-top: 20px;
 }
 
 footer p {
