@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-size: 100%;
     font-family: 'Noto Sans TC', 'M PLUS Rounded 1c', sans-serif;
-    background: #fff;
+    background: #777777;
 }
 
 body a {
@@ -53,7 +53,7 @@ h6 {
 p {
     margin: 0;
     font-size: 0.9em;
-    color: #777777;
+    color: #FFF;
     line-height: 1.9em;
     letter-spacing: 1px;
     font-weight: 400;
@@ -69,7 +69,9 @@ label {
 }
 
 /*--/header --*/
-
+.back {
+    background-image: url('../images/in.jpg');
+}
 /*--/navbar--*/
 
 .navbar {
@@ -436,7 +438,7 @@ h3.tittle.cen {
 /*--/banner-bottom --*/
 
 .banner-bottom {
-    padding: 1em 0;
+    /*padding: 1em 0;*/
 }
 
 .bt-bottom-info h5 {
@@ -503,7 +505,7 @@ h5#exampleModalLabel {
 
 h4.sub-tittle {
     font-size: 1.2em;
-    color: #333;
+    color: #FFF;
     letter-spacing: 1px;
     margin: 1em 0;
 }
@@ -523,8 +525,8 @@ h4.sub-tittle {
 }
 
 .icon_info h5 {
-    font-size: 1.2em;
-    color: #333;
+    font-size: 0.9em;
+    color: #FFF;
     margin: 1em 0;
     font-weight: 600;
 }
@@ -537,14 +539,14 @@ h4.sub-tittle {
     text-align: left;
     padding: 4em 2em;
     border: 3px solid #f5f5f5;
-    background-color: #f5f5f5;
+    background-color: #f39800;
     transition: all 0.3s ease-out 0s;
 }
 
 
 .grid_info_main i {
     font-size: 2em;
-    color: #f39800;
+    color: #FFF;
 }
 
 .grid_info_main:hover i {
@@ -579,7 +581,7 @@ h4.sub-tittle {
 
 .grid_sec_info {
     padding: 8em 6em 6em 6em;
-    background: #f5f5f5;
+    background: #777;
 }
 
 .style-grid-2-text_info p {
@@ -1237,7 +1239,7 @@ a.facebook:hover {
     .banner-bottom,
     .services,
     .reviews_sec {
-        padding: 2em 0;
+        /*padding: 2em 0;*/
     }
     footer {
         padding: 4em 0;
