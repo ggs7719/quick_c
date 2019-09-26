@@ -51,7 +51,7 @@ h6 {
 }
 
 p {
-    margin: 0;
+    margin: 10px;
     font-size: 0.9em;
     color: #FFF;
     line-height: 1.9em;
@@ -538,7 +538,7 @@ h4.sub-tittle {
 .icon_info {
     text-align: left;
     padding: 4em 2em;
-    border: 3px solid #f5f5f5;
+    /*border: 3px solid #f5f5f5;*/
     background-color: #f39800;
     transition: all 0.3s ease-out 0s;
 }
@@ -847,7 +847,7 @@ p.ab-para {
 
 .section_1_gallery_grid1 {
     position: relative;
-    background: #edf3f3;
+    /*background: #edf3f3;*/
     padding: 6px;
 }
 
@@ -855,17 +855,17 @@ p.ab-para {
     background: #f39800;
     bottom: 23px;
     left: 30px;
-    opacity: 0;
+    opacity: 1;
     padding: 1em;
-    position: absolute;
+    /*position: absolute;*/
     right: 30px;
     text-align: center;
-    visibility: hidden;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -ms-transform: scaleX(1);
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
 }
@@ -1042,7 +1042,7 @@ button.btn1:hover {
 /*--footer--*/
 
 footer {
-    padding: 5em 0;
+    /*padding: 5em 0;*/
     background-color: #0e0f10;
 }
 
@@ -1163,7 +1163,7 @@ a.facebook:hover {
 }
 
 .copyrightbottom {
-    float: left;
+    /*float: left;*/
 }
 
 .copyright {
@@ -1242,7 +1242,7 @@ a.facebook:hover {
         /*padding: 2em 0;*/
     }
     footer {
-        padding: 4em 0;
+        /*padding: 4em 0;*/
     }
 }
 
